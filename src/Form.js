@@ -16,7 +16,7 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("https://68.183.113.165:5000/add-credentials", {
+    fetch("http://68.183.113.165:5000/add-credentials", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
